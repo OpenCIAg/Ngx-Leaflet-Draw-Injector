@@ -1,0 +1,35 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558 
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "npm uninstall",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/dist/@ciag/ngx-leaflet-draw-injector"
+            },
+            "command": "sudo npm uninstall",
+            "problemMatcher": []
+        },
+        {
+            "label": "npm link",
+            "type": "shell",
+            "options": {
+                "cwd": "${workspaceFolder}/dist/@ciag/ngx-leaflet-draw-injector"
+            },
+            "command": "sudo npm link",
+            "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "deploy",
+            "problemMatcher": []
+        }
+    ]
+}

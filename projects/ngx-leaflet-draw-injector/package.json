@@ -1,0 +1,21 @@
+{
+  "name": "@ciag/ngx-leaflet-draw-injector",
+  "version": "0.0.1-beta.2",
+  "private": false,
+  "description": "[WIP]: inject draw features to leaflet map on angular",
+  "author": "Carlos Benedetti",
+  "license": "ISC",
+  "peerDependencies": {
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "rxjs": "~6.4.0",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.9.1"
+  },
+  "dependencies": {
+    "@asymmetrik/ngx-leaflet": "^6.0.1",
+    "@asymmetrik/ngx-leaflet-draw": "^5.0.1",
+    "leaflet": "^1.6.0",
+    "leaflet-draw": "^1.0.4"
+  }
+}

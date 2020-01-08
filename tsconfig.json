@@ -17,7 +17,18 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@angular/*": [
+        "./node_modules/@angular/*"
+      ],
+      "ngx-leaflet-draw-injector": [
+        "dist/ngx-leaflet-draw-injector"
+      ],
+      "ngx-leaflet-draw-injector/*": [
+        "dist/ngx-leaflet-draw-injector/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
