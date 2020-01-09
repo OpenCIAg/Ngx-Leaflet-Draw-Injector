@@ -51,13 +51,17 @@ export class NgxLeafletDraw {
     });
     this.enableDraw();
   }
-  
+
   /**
    * Remove/add itens on the toobar
    */
-  setSettings(newSettings: L.Control.DrawConstructorOptions) {
-    newSettings.edit.featureGroup = this.drawnItems;
+  setSettings(newSettings: { position?: L.ControlPosition, draw: L.Control.DrawOptions, edit: { edit?: false, remove?: false } }) {
+    if (!newSettings.edit) {
+      newSettings['edit'] = {};
+    }
+    newSettings.edit['featureGroup'] = this.drawnItems;
     this.disableDraw();
+    //@ts-ignore
     this.drawControl = new L.Control.Draw(newSettings);
     this.enableDraw();
   }
