@@ -1,6 +1,6 @@
 {
   "name": "@ciag/ngx-leaflet-draw-injector",
-  "version": "0.0.1",
+  "version": "0.1.0-0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "docs":"compodoc -p projects/ngx-leaflet-draw-injector/tsconfig.lib.json -s",
+    "docs": "compodoc -p projects/ngx-leaflet-draw-injector/tsconfig.lib.json -s",
     "deploy": "npm publish --access public dist/@ciag/ngx-leaflet-draw-injector"
   },
   "private": true,
