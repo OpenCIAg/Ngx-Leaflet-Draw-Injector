@@ -72,6 +72,38 @@ export class NgxLeafletDraw {
     this.IsEnable = false;
     this.map.removeControl(this.drawControl);
   }
+  startDraw(type: 'circle' | 'rectangle' | 'polygon' | 'marker') {
+    let layer: any
+    switch (type) {
+      case 'circle':
+        //@ts-ignore
+        layer = new L.Draw.Circle(this.map, this.drawControl.options.circle).enable();
+        break;
+      case 'rectangle':
+        //@ts-ignore
+        layer = new L.Draw.Rectangle(this.map, this.drawControl.options.retangle).enable();
+        break;
+      case 'polygon':
+        //@ts-ignore
+        layer = new L.Draw.Polygon(this.map, this.drawControl.options.polygon).enable();
+        break;
+      case 'marker':
+        //@ts-ignore
+        layer = new L.Draw.Marker(this.map, this.drawControl.options.marker).enable();
+        break;
+      default:
+        console.error(`type ${type} unknown`)
+        break;
+    }
+  }
+  startEdit() {
+    //@ts-ignore
+    return new L.EditToolbar.Edit(this.map, { featureGroup: this.drawControl.options.featureGroup, selectedPathOptions: this.drawControl.options.edit.selectedPathOptions })
+  }
+  startDelete() {
+    //@ts-ignore
+    return new L.EditToolbar.Delete(this.map, { featureGroup: this.drawControl.options.featureGroup })
+  }
   /**
    * Enable the draw toobar
    */
