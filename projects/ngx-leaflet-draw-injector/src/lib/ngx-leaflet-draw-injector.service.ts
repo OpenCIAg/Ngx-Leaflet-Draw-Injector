@@ -21,6 +21,7 @@ export class NgxLeafletDraw {
   beforeCreate: BefAftCreate;
   afterCreate: BefAftCreate;
   drawnItems = new L.FeatureGroup();
+  settings: L.Control.DrawConstructorOptions;
 
   onNewShape(): Observable<L.Layer> {
     return this._newShape.asObservable();
@@ -50,12 +51,26 @@ export class NgxLeafletDraw {
     });
     this.enableDraw();
   }
-
+  
+  /**
+   * Remove/add itens on the toobar
+   */
+  setSettings(newSettings: L.Control.DrawConstructorOptions) {
+    newSettings.edit.featureGroup = this.drawnItems;
+    this.disableDraw();
+    this.drawControl = new L.Control.Draw(newSettings);
+    this.enableDraw();
+  }
+  /**
+   * Disable the draw toobar
+   */
   disableDraw() {
     this.IsEnable = false;
     this.map.removeControl(this.drawControl);
   }
-
+  /**
+   * Enable the draw toobar
+   */
   enableDraw() {
     this.IsEnable = true;
     this.map.addControl(this.drawControl);
@@ -65,7 +80,17 @@ export class NgxLeafletDraw {
 export class NgxLeafletDrawSettings {
   static DRAWOPTIONS(drawFeatureGroup: L.FeatureGroup): L.Control.DrawConstructorOptions {
     return {
-      draw: { circle: false, marker: false, polyline: false }, edit: { edit: false, remove: false, featureGroup: drawFeatureGroup }
+      draw: {
+        circle: false,
+        marker: false,
+        polyline: false,
+        circlemarker: false,
+        rectangle: false
+      }, edit: {
+        edit: false,
+        remove: false,
+        featureGroup: drawFeatureGroup
+      }
     };
   }
 }
