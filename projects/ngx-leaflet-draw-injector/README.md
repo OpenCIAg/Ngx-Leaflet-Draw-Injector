@@ -17,6 +17,7 @@ Objective: a simplyfied way to add draw features to your leaflet map.
 | onNewShape      |
 | disableDraw     |
 | enableDraw      |
+| setSettings     |
 
 ## Installation
 Intall the NgxLeafletDrawInjector via NPM
