@@ -55,7 +55,7 @@ export class NgxLeafletDraw {
   /**
    * Remove/add itens on the toobar
    */
-  setSettings(newSettings: { position?: L.ControlPosition, draw: L.Control.DrawOptions, edit: { edit?: false, remove?: false } }) {
+  setSettings(newSettings: { position?: L.ControlPosition, draw: L.Control.DrawOptions, edit?: { edit?: false, remove?: false } }) {
     if (!newSettings.edit) {
       newSettings['edit'] = {};
     }
