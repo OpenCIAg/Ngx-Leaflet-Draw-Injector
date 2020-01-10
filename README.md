@@ -1,5 +1,6 @@
 # NgxLeafletDrawInjector
-A angular Lib 
+A angular Lib </br>
+[![npm version](https://badge.fury.io/js/%40ciag%2Fngx-leaflet-draw-injector.svg)](https://badge.fury.io/js/%40ciag%2Fngx-leaflet-draw-injector)
 
 Objective: a simplyfied way to add draw features to your leaflet map.
 ## [API](globals.md)

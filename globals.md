@@ -87,7 +87,7 @@
 
 Ƭ **BefAftCreate**: *function*
 
-*Defined in [interfaces.d.ts:23](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L23)*
+*Defined in [interfaces.d.ts:23](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L23)*
 
 #### Type declaration:
 
@@ -140,7 +140,7 @@
 
 \+ **new NgxLeafletDraw**(`map`: L.Map): *[NgxLeafletDraw](#classesngxleafletdrawmd)*
 
-*Defined in [NgxLeafletDraw.ts:39](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L39)*
+*Defined in [NgxLeafletDraw.ts:39](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L39)*
 
 **Parameters:**
 
@@ -156,7 +156,7 @@ Name | Type |
 
 • **afterCreate**: *[BefAftCreate](#befaftcreate)*
 
-*Defined in [NgxLeafletDraw.ts:33](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L33)*
+*Defined in [NgxLeafletDraw.ts:33](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L33)*
 
  Pass a function to this variable to be called after the creation of the layer
  ```typescript
@@ -171,7 +171,7 @@ ___
 
 • **beforeCreate**: *[BefAftCreate](#befaftcreate)*
 
-*Defined in [NgxLeafletDraw.ts:24](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L24)*
+*Defined in [NgxLeafletDraw.ts:24](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L24)*
 
  Pass a async function to this variable to be called before the creation
 of the layer, it will await until it receives a boolean
@@ -192,7 +192,7 @@ ___
 
 • **deleteTool**: *L.EditToolbar.Delete*
 
-*Defined in [NgxLeafletDraw.ts:36](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L36)*
+*Defined in [NgxLeafletDraw.ts:36](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L36)*
 
 ___
 
@@ -200,7 +200,7 @@ ___
 
 • **drawControl**: *L.Control.Draw*
 
-*Defined in [NgxLeafletDraw.ts:9](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L9)*
+*Defined in [NgxLeafletDraw.ts:9](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L9)*
 
 ___
 
@@ -208,7 +208,7 @@ ___
 
 • **drawnItems**: *any* =  new L.FeatureGroup()
 
-*Defined in [NgxLeafletDraw.ts:34](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L34)*
+*Defined in [NgxLeafletDraw.ts:34](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L34)*
 
 ___
 
@@ -216,7 +216,7 @@ ___
 
 • **editTool**: *L.EditToolbar.Edit*
 
-*Defined in [NgxLeafletDraw.ts:35](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L35)*
+*Defined in [NgxLeafletDraw.ts:35](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L35)*
 
 ___
 
@@ -224,7 +224,7 @@ ___
 
 • **map**: *L.Map*
 
-*Defined in [NgxLeafletDraw.ts:40](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L40)*
+*Defined in [NgxLeafletDraw.ts:40](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L40)*
 
 ### Methods
 
@@ -232,7 +232,7 @@ ___
 
 ▸ **disableDraw**(): *void*
 
-*Defined in [NgxLeafletDraw.ts:87](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L87)*
+*Defined in [NgxLeafletDraw.ts:87](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L87)*
 
 Disable the draw toobar
 
@@ -244,7 +244,7 @@ ___
 
 ▸ **enableDraw**(): *void*
 
-*Defined in [NgxLeafletDraw.ts:80](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L80)*
+*Defined in [NgxLeafletDraw.ts:80](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L80)*
 
 Enable the draw toobar
 
@@ -256,7 +256,7 @@ ___
 
 ▸ **onNewLayer**(): *Observable‹L.Layer›*
 
-*Defined in [NgxLeafletDraw.ts:37](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L37)*
+*Defined in [NgxLeafletDraw.ts:37](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L37)*
 
 **Returns:** *Observable‹L.Layer›*
 
@@ -266,7 +266,7 @@ ___
 
 ▸ **setSettings**(`newSettings`: [DrawSettings](#interfacesdrawsettingsmd)): *void*
 
-*Defined in [NgxLeafletDraw.ts:68](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L68)*
+*Defined in [NgxLeafletDraw.ts:68](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L68)*
 
 Remove/add itens on the toobar
 
@@ -284,7 +284,7 @@ ___
 
 ▸ **startDelete**(): *void*
 
-*Defined in [NgxLeafletDraw.ts:136](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L136)*
+*Defined in [NgxLeafletDraw.ts:136](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L136)*
 
 Starts the delete mode, used to remove shapes in the map
 
@@ -296,7 +296,7 @@ ___
 
 ▸ **startDraw**(`type`: "circle" | "rectangle" | "polygon" | "marker"): *void*
 
-*Defined in [NgxLeafletDraw.ts:94](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L94)*
+*Defined in [NgxLeafletDraw.ts:94](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L94)*
 
 Start the draw tool for the shape selected
 
@@ -314,7 +314,7 @@ ___
 
 ▸ **startEdit**(): *any*
 
-*Defined in [NgxLeafletDraw.ts:117](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L117)*
+*Defined in [NgxLeafletDraw.ts:117](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L117)*
 
 Starts the edit mode, used to edit all shapes in the map
 
@@ -326,7 +326,7 @@ ___
 
 ▸ **stopDelete**(`revert?`: boolean): *void*
 
-*Defined in [NgxLeafletDraw.ts:143](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L143)*
+*Defined in [NgxLeafletDraw.ts:143](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L143)*
 
 Stop the edit mode
 
@@ -344,7 +344,7 @@ ___
 
 ▸ **stopEdit**(`revert?`: boolean): *void*
 
-*Defined in [NgxLeafletDraw.ts:124](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L124)*
+*Defined in [NgxLeafletDraw.ts:124](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L124)*
 
 Stop the edit mode
 
@@ -387,7 +387,7 @@ Name | Type |
 
 \+ **new NgxLeafletDrawInjectorService**(): *[NgxLeafletDrawInjectorService](#classesngxleafletdrawinjectorservicemd)*
 
-*Defined in [ngx-leaflet-draw-injector.service.ts:10](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/ngx-leaflet-draw-injector.service.ts#L10)*
+*Defined in [ngx-leaflet-draw-injector.service.ts:10](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/ngx-leaflet-draw-injector.service.ts#L10)*
 
 **Returns:** *[NgxLeafletDrawInjectorService](#classesngxleafletdrawinjectorservicemd)*
 
@@ -397,7 +397,7 @@ Name | Type |
 
 ▸ **addDrawToMap**(`map`: L.Map): *[NgxLeafletDraw](#classesngxleafletdrawmd)‹›*
 
-*Defined in [ngx-leaflet-draw-injector.service.ts:14](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/ngx-leaflet-draw-injector.service.ts#L14)*
+*Defined in [ngx-leaflet-draw-injector.service.ts:14](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/ngx-leaflet-draw-injector.service.ts#L14)*
 
 **Parameters:**
 
@@ -430,7 +430,7 @@ Name | Type |
 
 ▸ **DRAWOPTIONS**(`drawFeatureGroup`: L.FeatureGroup): *L.Control.DrawConstructorOptions*
 
-*Defined in [NgxLeafletDrawSettings.ts:3](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDrawSettings.ts#L3)*
+*Defined in [NgxLeafletDrawSettings.ts:3](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDrawSettings.ts#L3)*
 
 **Parameters:**
 
@@ -466,7 +466,7 @@ Name | Type |
 
 • **bottonRight**: *number[]*
 
-*Defined in [interfaces.d.ts:21](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L21)*
+*Defined in [interfaces.d.ts:21](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L21)*
 
 ___
 
@@ -474,7 +474,7 @@ ___
 
 • **topLeft**: *number[]*
 
-*Defined in [interfaces.d.ts:20](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L20)*
+*Defined in [interfaces.d.ts:20](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L20)*
 
 
 <a name="interfacesdrawsettingsmd"></a>
@@ -501,7 +501,7 @@ ___
 
 • **draw**: *L.Control.DrawOptions*
 
-*Defined in [interfaces.d.ts:27](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L27)*
+*Defined in [interfaces.d.ts:27](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L27)*
 
 ___
 
@@ -509,7 +509,7 @@ ___
 
 • **edit**? : *object*
 
-*Defined in [interfaces.d.ts:28](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L28)*
+*Defined in [interfaces.d.ts:28](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L28)*
 
 ##### Type declaration:
 
@@ -523,7 +523,7 @@ ___
 
 • **position**? : *L.ControlPosition*
 
-*Defined in [interfaces.d.ts:26](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L26)*
+*Defined in [interfaces.d.ts:26](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L26)*
 
 
 <a name="interfacesgeojsonmd"></a>
@@ -549,7 +549,7 @@ ___
 
 • **features**: *[GeoJsonFeature](#interfacesgeojsonfeaturemd)[]*
 
-*Defined in [interfaces.d.ts:17](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L17)*
+*Defined in [interfaces.d.ts:17](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L17)*
 
 ___
 
@@ -557,7 +557,7 @@ ___
 
 • **type**: *string*
 
-*Defined in [interfaces.d.ts:16](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L16)*
+*Defined in [interfaces.d.ts:16](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L16)*
 
 
 <a name="interfacesgeojsonfeaturemd"></a>
@@ -584,7 +584,7 @@ ___
 
 • **geometry**: *[GeoJsonFeatureGeomety](#interfacesgeojsonfeaturegeometymd)*
 
-*Defined in [interfaces.d.ts:13](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L13)*
+*Defined in [interfaces.d.ts:13](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L13)*
 
 ___
 
@@ -592,7 +592,7 @@ ___
 
 • **properties**: *__type*
 
-*Defined in [interfaces.d.ts:12](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L12)*
+*Defined in [interfaces.d.ts:12](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L12)*
 
 ___
 
@@ -600,7 +600,7 @@ ___
 
 • **type**: *string*
 
-*Defined in [interfaces.d.ts:11](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L11)*
+*Defined in [interfaces.d.ts:11](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L11)*
 
 
 <a name="interfacesgeojsonfeaturegeometymd"></a>
@@ -626,7 +626,7 @@ ___
 
 • **coordinates**: *number[][][] | any*
 
-*Defined in [interfaces.d.ts:8](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L8)*
+*Defined in [interfaces.d.ts:8](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L8)*
 
 ___
 
@@ -634,7 +634,7 @@ ___
 
 • **type**: *string*
 
-*Defined in [interfaces.d.ts:7](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L7)*
+*Defined in [interfaces.d.ts:7](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L7)*
 
 
 <a name="interfaceslatlongmd"></a>
@@ -660,7 +660,7 @@ ___
 
 • **lat**: *string*
 
-*Defined in [interfaces.d.ts:3](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L3)*
+*Defined in [interfaces.d.ts:3](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L3)*
 
 ___
 
@@ -668,4 +668,4 @@ ___
 
 • **long**: *string*
 
-*Defined in [interfaces.d.ts:4](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L4)*
+*Defined in [interfaces.d.ts:4](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L4)*
