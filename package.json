@@ -1,6 +1,6 @@
 {
   "name": "@ciag/ngx-leaflet-draw-injector",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -64,5 +64,14 @@
     "typedoc": "^0.15.6",
     "typedoc-plugin-markdown": "^2.2.16",
     "typescript": "^3.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector"
+  },
+  "keywords": [
+    "Leaflet",
+    "Leaflet-draw",
+    "Angular"
+  ]
 }
