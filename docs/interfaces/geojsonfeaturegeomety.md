@@ -19,7 +19,7 @@
 
 • **coordinates**: *number[][][] | any*
 
-*Defined in [interfaces.d.ts:8](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L8)*
+*Defined in [interfaces.d.ts:8](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L8)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **type**: *string*
 
-*Defined in [interfaces.d.ts:7](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L7)*
+*Defined in [interfaces.d.ts:7](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L7)*

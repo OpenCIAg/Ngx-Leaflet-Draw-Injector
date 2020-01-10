@@ -40,7 +40,7 @@
 
 \+ **new NgxLeafletDraw**(`map`: L.Map): *[NgxLeafletDraw](ngxleafletdraw.md)*
 
-*Defined in [NgxLeafletDraw.ts:39](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L39)*
+*Defined in [NgxLeafletDraw.ts:39](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L39)*
 
 **Parameters:**
 
@@ -56,7 +56,7 @@ Name | Type |
 
 • **afterCreate**: *[BefAftCreate](../globals.md#befaftcreate)*
 
-*Defined in [NgxLeafletDraw.ts:33](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L33)*
+*Defined in [NgxLeafletDraw.ts:33](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L33)*
 
  Pass a function to this variable to be called after the creation of the layer
  ```typescript
@@ -71,7 +71,7 @@ ___
 
 • **beforeCreate**: *[BefAftCreate](../globals.md#befaftcreate)*
 
-*Defined in [NgxLeafletDraw.ts:24](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L24)*
+*Defined in [NgxLeafletDraw.ts:24](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L24)*
 
  Pass a async function to this variable to be called before the creation
 of the layer, it will await until it receives a boolean
@@ -92,7 +92,7 @@ ___
 
 • **deleteTool**: *L.EditToolbar.Delete*
 
-*Defined in [NgxLeafletDraw.ts:36](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L36)*
+*Defined in [NgxLeafletDraw.ts:36](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L36)*
 
 ___
 
@@ -100,7 +100,7 @@ ___
 
 • **drawControl**: *L.Control.Draw*
 
-*Defined in [NgxLeafletDraw.ts:9](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L9)*
+*Defined in [NgxLeafletDraw.ts:9](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L9)*
 
 ___
 
@@ -108,7 +108,7 @@ ___
 
 • **drawnItems**: *any* =  new L.FeatureGroup()
 
-*Defined in [NgxLeafletDraw.ts:34](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L34)*
+*Defined in [NgxLeafletDraw.ts:34](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L34)*
 
 ___
 
@@ -116,7 +116,7 @@ ___
 
 • **editTool**: *L.EditToolbar.Edit*
 
-*Defined in [NgxLeafletDraw.ts:35](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L35)*
+*Defined in [NgxLeafletDraw.ts:35](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L35)*
 
 ___
 
@@ -124,7 +124,7 @@ ___
 
 • **map**: *L.Map*
 
-*Defined in [NgxLeafletDraw.ts:40](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L40)*
+*Defined in [NgxLeafletDraw.ts:40](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L40)*
 
 ## Methods
 
@@ -132,7 +132,7 @@ ___
 
 ▸ **disableDraw**(): *void*
 
-*Defined in [NgxLeafletDraw.ts:87](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L87)*
+*Defined in [NgxLeafletDraw.ts:87](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L87)*
 
 Disable the draw toobar
 
@@ -144,7 +144,7 @@ ___
 
 ▸ **enableDraw**(): *void*
 
-*Defined in [NgxLeafletDraw.ts:80](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L80)*
+*Defined in [NgxLeafletDraw.ts:80](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L80)*
 
 Enable the draw toobar
 
@@ -156,7 +156,7 @@ ___
 
 ▸ **onNewLayer**(): *Observable‹L.Layer›*
 
-*Defined in [NgxLeafletDraw.ts:37](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L37)*
+*Defined in [NgxLeafletDraw.ts:37](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L37)*
 
 **Returns:** *Observable‹L.Layer›*
 
@@ -166,7 +166,7 @@ ___
 
 ▸ **setSettings**(`newSettings`: [DrawSettings](../interfaces/drawsettings.md)): *void*
 
-*Defined in [NgxLeafletDraw.ts:68](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L68)*
+*Defined in [NgxLeafletDraw.ts:68](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L68)*
 
 Remove/add itens on the toobar
 
@@ -184,7 +184,7 @@ ___
 
 ▸ **startDelete**(): *void*
 
-*Defined in [NgxLeafletDraw.ts:136](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L136)*
+*Defined in [NgxLeafletDraw.ts:136](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L136)*
 
 Starts the delete mode, used to remove shapes in the map
 
@@ -196,7 +196,7 @@ ___
 
 ▸ **startDraw**(`type`: "circle" | "rectangle" | "polygon" | "marker"): *void*
 
-*Defined in [NgxLeafletDraw.ts:94](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L94)*
+*Defined in [NgxLeafletDraw.ts:94](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L94)*
 
 Start the draw tool for the shape selected
 
@@ -214,7 +214,7 @@ ___
 
 ▸ **startEdit**(): *any*
 
-*Defined in [NgxLeafletDraw.ts:117](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L117)*
+*Defined in [NgxLeafletDraw.ts:117](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L117)*
 
 Starts the edit mode, used to edit all shapes in the map
 
@@ -226,7 +226,7 @@ ___
 
 ▸ **stopDelete**(`revert?`: boolean): *void*
 
-*Defined in [NgxLeafletDraw.ts:143](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L143)*
+*Defined in [NgxLeafletDraw.ts:143](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L143)*
 
 Stop the edit mode
 
@@ -244,7 +244,7 @@ ___
 
 ▸ **stopEdit**(`revert?`: boolean): *void*
 
-*Defined in [NgxLeafletDraw.ts:124](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L124)*
+*Defined in [NgxLeafletDraw.ts:124](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDraw.ts#L124)*
 
 Stop the edit mode
 

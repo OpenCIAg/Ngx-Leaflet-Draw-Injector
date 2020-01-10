@@ -20,7 +20,7 @@
 
 • **geometry**: *[GeoJsonFeatureGeomety](geojsonfeaturegeomety.md)*
 
-*Defined in [interfaces.d.ts:13](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L13)*
+*Defined in [interfaces.d.ts:13](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L13)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **properties**: *__type*
 
-*Defined in [interfaces.d.ts:12](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L12)*
+*Defined in [interfaces.d.ts:12](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L12)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **type**: *string*
 
-*Defined in [interfaces.d.ts:11](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L11)*
+*Defined in [interfaces.d.ts:11](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L11)*

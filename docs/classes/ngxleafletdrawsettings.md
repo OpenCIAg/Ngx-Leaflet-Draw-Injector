@@ -18,7 +18,7 @@
 
 ▸ **DRAWOPTIONS**(`drawFeatureGroup`: L.FeatureGroup): *L.Control.DrawConstructorOptions*
 
-*Defined in [NgxLeafletDrawSettings.ts:3](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/14c4b69/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDrawSettings.ts#L3)*
+*Defined in [NgxLeafletDrawSettings.ts:3](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ca6b1fb/projects/ngx-leaflet-draw-injector/src/lib/NgxLeafletDrawSettings.ts#L3)*
 
 **Parameters:**
 
