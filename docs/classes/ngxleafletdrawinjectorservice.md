@@ -26,7 +26,7 @@
 
 \+ **new NgxLeafletDrawInjectorService**(): *[NgxLeafletDrawInjectorService](ngxleafletdrawinjectorservice.md)*
 
-*Defined in [ngx-leaflet-draw-injector.service.ts:10](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/fcb54a5/projects/ngx-leaflet-draw-injector/src/lib/ngx-leaflet-draw-injector.service.ts#L10)*
+*Defined in [ngx-leaflet-draw-injector.service.ts:10](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/ngx-leaflet-draw-injector.service.ts#L10)*
 
 **Returns:** *[NgxLeafletDrawInjectorService](ngxleafletdrawinjectorservice.md)*
 
@@ -36,7 +36,7 @@
 
 ▸ **addDrawToMap**(`map`: L.Map): *[NgxLeafletDraw](ngxleafletdraw.md)‹›*
 
-*Defined in [ngx-leaflet-draw-injector.service.ts:14](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/fcb54a5/projects/ngx-leaflet-draw-injector/src/lib/ngx-leaflet-draw-injector.service.ts#L14)*
+*Defined in [ngx-leaflet-draw-injector.service.ts:14](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/ngx-leaflet-draw-injector.service.ts#L14)*
 
 **Parameters:**
 

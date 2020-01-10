@@ -1,4 +1,4 @@
-# [WIP] NgxLeafletDrawInjector
+# NgxLeafletDrawInjector
 A angular Lib 
 
 Objective: a simplyfied way to add draw features to your leaflet map.

@@ -19,7 +19,7 @@
 
 • **bottonRight**: *number[]*
 
-*Defined in [interfaces.d.ts:21](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/fcb54a5/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L21)*
+*Defined in [interfaces.d.ts:21](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L21)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **topLeft**: *number[]*
 
-*Defined in [interfaces.d.ts:20](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/fcb54a5/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L20)*
+*Defined in [interfaces.d.ts:20](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/ad6db14/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L20)*

@@ -1,6 +1,6 @@
 {
   "name": "@ciag/ngx-leaflet-draw-injector",
-  "version": "0.0.2-beta.6",
+  "version": "1.0.1",
   "private": false,
   "description": "[WIP]: inject draw features to leaflet map on angular",
   "author": "Carlos Benedetti",
