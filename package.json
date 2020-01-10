@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "postbuild":"npm run docs",
     "deploy": "npm publish --access public dist/@ciag/ngx-leaflet-draw-injector",
-    "docs": "rimraf docs && typedoc --options ./typedocMarkdown.ts && rimraf docs/README.md && concat-md --toc --decrease-title-levels --dir-name-as-title docs > globals.md && cp globals.md dist/$npm_package_name/"
+    "docs": "rimraf docs && rimraf globals.md && typedoc --options ./typedocMarkdown.ts && rimraf docs/README.md && concat-md --toc --decrease-title-levels --dir-name-as-title docs > globals.md && cp globals.md dist/$npm_package_name/"
   },
   "private": true,
   "dependencies": {

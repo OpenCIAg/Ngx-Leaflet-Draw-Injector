@@ -8,12 +8,12 @@ export class NgxLeafletDraw {
     protected IsEnable: boolean;
     public drawControl: L.Control.Draw;
     /**
-     * @title Before create of ngx leaflet draw
-     * @description Pass a async function to this variable to be called before the creation 
+     * Before create of ngx leaflet draw
+     *  Pass a async function to this variable to be called before the creation 
      * of the layer, it will await until it receives a boolean
-     * @example ```typescript
+     * ```typescript
+     * const doIWannaAddTheLayer = false
      * ngxLeafletDraw.beforeCreate = async () =>{
-     *    const doIWannaAddTheLayer = false //
      *    if(doIWannaAddTheLayer){
      *        return true // the layer will be added to the map
      *    } else{
@@ -24,9 +24,9 @@ export class NgxLeafletDraw {
      */
     public beforeCreate: BefAftCreate;
     /**
-     * @title After create layer of ngx leaflet draw
-     * @description Pass a function to this variable to be called after the creation of the layer
-     * @example ```typescript
+     *  After create layer of ngx leaflet draw
+     *  Pass a function to this variable to be called after the creation of the layer
+     *  ```typescript
      * ngxLeafletDraw.afterCreate = () =>{
      *     console.log("the layer was created :)")
      * }

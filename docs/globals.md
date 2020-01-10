@@ -29,7 +29,7 @@
 
 Ƭ **BefAftCreate**: *function*
 
-*Defined in [interfaces.d.ts:23](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/7a8b118/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L23)*
+*Defined in [interfaces.d.ts:23](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/800faf7/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L23)*
 
 #### Type declaration:
 
