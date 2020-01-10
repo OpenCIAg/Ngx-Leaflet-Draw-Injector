@@ -20,7 +20,7 @@
 
 • **draw**: *L.Control.DrawOptions*
 
-*Defined in [interfaces.d.ts:27](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/800faf7/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L27)*
+*Defined in [interfaces.d.ts:27](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/fcb54a5/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L27)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **edit**? : *object*
 
-*Defined in [interfaces.d.ts:28](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/800faf7/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L28)*
+*Defined in [interfaces.d.ts:28](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/fcb54a5/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L28)*
 
 #### Type declaration:
 
@@ -42,4 +42,4 @@ ___
 
 • **position**? : *L.ControlPosition*
 
-*Defined in [interfaces.d.ts:26](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/800faf7/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L26)*
+*Defined in [interfaces.d.ts:26](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/fcb54a5/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L26)*

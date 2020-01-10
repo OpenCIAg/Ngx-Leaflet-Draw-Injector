@@ -8,7 +8,6 @@ export class NgxLeafletDraw {
     protected IsEnable: boolean;
     public drawControl: L.Control.Draw;
     /**
-     * Before create of ngx leaflet draw
      *  Pass a async function to this variable to be called before the creation 
      * of the layer, it will await until it receives a boolean
      * ```typescript
@@ -24,7 +23,6 @@ export class NgxLeafletDraw {
      */
     public beforeCreate: BefAftCreate;
     /**
-     *  After create layer of ngx leaflet draw
      *  Pass a function to this variable to be called after the creation of the layer
      *  ```typescript
      * ngxLeafletDraw.afterCreate = () =>{
