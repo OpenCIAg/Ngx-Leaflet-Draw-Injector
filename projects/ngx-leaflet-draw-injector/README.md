@@ -2,22 +2,11 @@
 A angular Lib 
 
 Objective: a simplyfied way to add draw features to your leaflet map.
+## [API](globals.md)
 
 ## Table of contents
 1. [Installation](#installation)
-2. [Usage](#Usage)
-
-| Service Methods |
-| --------------- |
-| addDrawToMap    |
-
-
-|NgxLeafletDraw Methods       |  
-| --------------- |
-| onNewShape      |
-| disableDraw     |
-| enableDraw      |
-| setSettings     |
+1. [Usage](#usage)
 
 ## Installation
 Intall the NgxLeafletDrawInjector via NPM

@@ -5,6 +5,7 @@
     "tasks": [
         {
             "type": "npm",
+            "label": "build",
             "script": "build",
             "problemMatcher": []
         },
@@ -29,6 +30,15 @@
         {
             "type": "npm",
             "script": "deploy",
+            "dependsOn": [
+                "build"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "type": "npm",
+            "script": "build:doc",
+            "group": "build",
             "problemMatcher": []
         }
     ]
