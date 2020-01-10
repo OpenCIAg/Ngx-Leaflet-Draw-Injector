@@ -19,7 +19,7 @@
 
 • **features**: *[GeoJsonFeature](geojsonfeature.md)[]*
 
-*Defined in [interfaces.d.ts:17](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/786aed6/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L17)*
+*Defined in [interfaces.d.ts:17](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/7a8b118/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L17)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **type**: *string*
 
-*Defined in [interfaces.d.ts:16](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/786aed6/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L16)*
+*Defined in [interfaces.d.ts:16](https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector/blob/7a8b118/projects/ngx-leaflet-draw-injector/src/lib/interfaces.d.ts#L16)*
