@@ -1,10 +1,13 @@
 {
   "name": "@ciag/ngx-leaflet-draw-injector",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
   "description": "inject draw features to leaflet map on angular",
-  "author": "Carlos Benedetti",
-  "license": "ISC",
+  "author": {
+    "name": "Carlos Eduardo Benedetti",
+    "email": "cbjrcadu@gmail.com"
+  },
+  "license": "Apache 2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/OpenCIAg/Ngx-Leaflet-Draw-Injector"
